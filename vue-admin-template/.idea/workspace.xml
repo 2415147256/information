@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="b8f96522-1946-4b13-9abd-4ee80ed1064e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../information/service/service-user/src/main/java/com/lzh/serviceuser/controller/WxApiController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../information/service/service-user/src/main/java/com/lzh/serviceuser/utils/ConstantWxUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../information/service/service-user/src/main/java/com/lzh/serviceuser/utils/HttpClientUtils.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="26JT59HqC2PAGfH7xwwkcMUjJj9" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../javaProject/vue-front-1010" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.standard" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.standard" value="" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.fileTypes" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\java\build\vue-admin-template\src\components" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\java\build\vue-admin-template\src\api\information" />
+      <recent name="D:\java\build\vue-admin-template\src\api\user" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="dev" type="js.build_tools.npm" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="dev" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b8f96522-1946-4b13-9abd-4ee80ed1064e" name="Default Changelist" comment="" />
+      <created>1647140504924</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1647140504924</updated>
+      <workItem from="1647140506708" duration="2578000" />
+      <workItem from="1647157463607" duration="2741000" />
+      <workItem from="1647160737638" duration="101000" />
+      <workItem from="1647161578059" duration="170000" />
+      <workItem from="1647161893865" duration="1339000" />
+      <workItem from="1647164044090" duration="1606000" />
+      <workItem from="1647177552175" duration="5681000" />
+      <workItem from="1647256854760" duration="4186000" />
+      <workItem from="1647269071941" duration="89000" />
+      <workItem from="1647591244753" duration="7000" />
+      <workItem from="1647591271000" duration="95000" />
+      <workItem from="1647591465538" duration="39000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
