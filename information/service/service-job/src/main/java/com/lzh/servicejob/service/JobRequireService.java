@@ -1,5 +1,16 @@
-package com.lzh.servicejob.service;/**
- * @author 卢正豪
- * @version 1.0
- */   public class JobRequireService {
+package com.lzh.servicejob.service;
+
+import com.baomidou.mybatisplus.extension.service.IService;
+import com.lzh.servicejob.entity.JobRequire;
+
+/**
+ * <p>
+ *  服务类
+ * </p>
+ *
+ * @author lzh
+ * @since 2022-03-22
+ */
+public interface JobRequireService extends IService<JobRequire> {
+
 }

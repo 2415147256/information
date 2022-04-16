@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.lzh.servicejob.mapper.RequireTypeMapper">
+
+    <select id="selectByParentId" resultType="com.lzh.servicejob.entity.JobRequireType">
+        select * from require_type where  parentId  =  #{courseid}
+    </select>
+</mapper>

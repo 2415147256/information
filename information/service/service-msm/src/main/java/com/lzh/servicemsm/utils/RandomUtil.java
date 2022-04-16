@@ -1,4 +1,4 @@
-package com.atguigu.msmservice.utils;
+package com.lzh.servicemsm.utils;
 
 import java.text.DecimalFormat;
 import java.util.ArrayList;
@@ -8,7 +8,7 @@ import java.util.Random;
 
 /**
  * 获取随机数
- * 
+ *
  * @author qianyi
  *
  */

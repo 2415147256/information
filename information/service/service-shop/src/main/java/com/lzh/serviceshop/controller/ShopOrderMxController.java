@@ -1,9 +1,16 @@
 package com.lzh.serviceshop.controller;
 
 
-import org.springframework.web.bind.annotation.RequestMapping;
+import com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper;
+import com.lzh.commonutils.T;
+import com.lzh.serviceshop.entity.ShopOrderMx;
+import com.lzh.serviceshop.mapper.ShopOrderMxMapper;
+import com.lzh.serviceshop.service.ShopOrderMxService;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.*;
 
-import org.springframework.web.bind.annotation.RestController;
+import java.math.BigDecimal;
+import java.util.List;
 
 /**
  * <p>
@@ -14,8 +21,28 @@ import org.springframework.web.bind.annotation.RestController;
  * @since 2022-04-05
  */
 @RestController
-@RequestMapping("/serviceshop/shop-order-mx")
+@RequestMapping("/service-shop/shop-order-mx")
 public class ShopOrderMxController {
 
+    @Autowired
+    private ShopOrderMxService shopOrderMxService;
+
+    /**
+     * 增加订单的信息
+     * @param shopOrderMx
+     * @return
+     */
+    @PostMapping("addOrderMxInfo")
+    public T addOrderMxInfo(@RequestBody ShopOrderMx shopOrderMx){
+
+        shopOrderMx.setIsPay(0);
+        String shopPrice = shopOrderMx.getShopPrice();
+        String shopNum = shopOrderMx.getShopNum();
+        BigDecimal bigDecimal = new BigDecimal(Integer.valueOf(shopPrice) * Integer.valueOf(shopNum));
+        shopOrderMx.setShopAllPrice(bigDecimal);
+        shopOrderMxService.save(shopOrderMx);
+        String id = shopOrderMx.getId();
+        return T.ok().data("shopMxId" , id);
+    }
 }
 

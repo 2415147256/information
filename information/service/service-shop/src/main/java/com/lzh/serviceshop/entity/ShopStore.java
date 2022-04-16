@@ -11,7 +11,7 @@ import lombok.experimental.Accessors;
 
 /**
  * <p>
- * 
+ *
  * </p>
  *
  * @author lzh
@@ -26,8 +26,8 @@ public class ShopStore implements Serializable {
     private static final long serialVersionUID = 1L;
 
     @ApiModelProperty(value = "ID号")
-    @TableId(value = "user_id", type = IdType.ID_WORKER)
-    private Integer userId;
+    @TableId(value = "store_id", type = IdType.ID_WORKER_STR)
+    private String storeId;
 
     @ApiModelProperty(value = "店铺名称")
     private String storeName;

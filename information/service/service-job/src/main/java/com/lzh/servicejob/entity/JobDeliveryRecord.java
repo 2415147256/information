@@ -1,7 +1,10 @@
 package com.lzh.servicejob.entity;
 
+import com.baomidou.mybatisplus.annotation.FieldFill;
 import com.baomidou.mybatisplus.annotation.IdType;
 import java.util.Date;
+
+import com.baomidou.mybatisplus.annotation.TableField;
 import com.baomidou.mybatisplus.annotation.TableId;
 import java.io.Serializable;
 import io.swagger.annotations.ApiModel;
@@ -12,7 +15,7 @@ import lombok.experimental.Accessors;
 
 /**
  * <p>
- * 
+ *
  * </p>
  *
  * @author lzh
@@ -27,7 +30,7 @@ public class JobDeliveryRecord implements Serializable {
     private static final long serialVersionUID = 1L;
 
     @ApiModelProperty(value = "主表的id")
-    @TableId(value = "id", type = IdType.ID_WORKER)
+    @TableId(value = "id", type = IdType.ID_WORKER_STR)
     private String id;
 
     @ApiModelProperty(value = "工作的id")
@@ -37,6 +40,7 @@ public class JobDeliveryRecord implements Serializable {
     private String userId;
 
     @ApiModelProperty(value = "投递的时间")
+    @TableField(fill = FieldFill.INSERT)
     private Date createTime;
 
 

@@ -1,4 +1,4 @@
-package com.lzh.servicerent.user;
+package com.lzh.serviceshop.user;
 
 import com.lzh.servicebase.entity.User;
 import org.springframework.stereotype.Component;

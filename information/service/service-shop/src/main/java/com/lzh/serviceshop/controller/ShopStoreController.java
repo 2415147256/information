@@ -14,7 +14,7 @@ import org.springframework.web.bind.annotation.RestController;
  * @since 2022-04-05
  */
 @RestController
-@RequestMapping("/serviceshop/shop-store")
+@RequestMapping("/service-shop/shop-store")
 public class ShopStoreController {
 
 }

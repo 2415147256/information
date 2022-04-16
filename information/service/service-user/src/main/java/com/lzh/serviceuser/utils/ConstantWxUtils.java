@@ -1,4 +1,4 @@
-package com.atguigu.serviceUcenter.utils;
+package com.lzh.serviceuser.utils;
 
 import org.springframework.beans.factory.InitializingBean;
 import org.springframework.beans.factory.annotation.Value;

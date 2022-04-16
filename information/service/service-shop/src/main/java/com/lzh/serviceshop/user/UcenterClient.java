@@ -1,4 +1,4 @@
-package com.lzh.servicerent.user;
+package com.lzh.serviceshop.user;
 
 
 import com.lzh.servicebase.entity.User;
@@ -21,6 +21,8 @@ public interface UcenterClient {
      * @param id
      * @return
      */
-    @GetMapping("/serviceUser/user/getUserInfoById/{id}")
+    @GetMapping("/serviceUser/tb-user/getUserInfoById/{id}")
     public User getUserInfo(@PathVariable("id") String id);
+
+
 }

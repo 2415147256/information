@@ -10,14 +10,11 @@ import java.util.Date;
  * @version 1.0
  */
 @Data
-public class RentVo {
+public class RentHouseInfoVo {
 
     @ApiModelProperty(value = "月租")
-    private String monthRent;
+    private String rent;
 
-    @ApiModelProperty(value = "地址")
-    private String address;
-
-    @ApiModelProperty(value = "时间")
-    private Date date;
+    @ApiModelProperty(value = "几室")
+    private String rooms;
 }

@@ -2,4 +2,12 @@
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="com.lzh.serviceshop.mapper.ShopTypeMapper">
 
+    <select id="getAllOneSubjet" resultType="com.lzh.serviceshop.entity.ShopType">
+        select *from shop_type where parent_id = '0'
+    </select>
+
+    <select id="getAllTwoSubject" resultType="com.lzh.serviceshop.entity.ShopType">
+        select *from shop_type where parent_id = #{shopId}
+    </select>
+
 </mapper>

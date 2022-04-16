@@ -34,10 +34,10 @@ public class ShopProduct implements Serializable {
     private String productName;
 
     @ApiModelProperty(value = "商品价格")
-    private String productPrice;
+    private Double productPrice;
 
     @ApiModelProperty(value = "商品库存")
-    private String productNum;
+    private Integer productNum;
 
     @ApiModelProperty(value = "商品图片")
     private String productImag;
@@ -53,5 +53,10 @@ public class ShopProduct implements Serializable {
     @TableField("product_twoType")
     private String productTwotype;
 
+
+    private String storeId;
+
+
+    private String salaryNum;
 
 }

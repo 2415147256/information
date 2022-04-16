@@ -1,4 +1,4 @@
-package com.atguigu.eduorder.utils;
+package com.lzh.serviceorder.utils;
 
 import org.apache.http.Consts;
 import org.apache.http.HttpEntity;
@@ -27,9 +27,9 @@ import java.util.Map;
 
 /**
  * http请求客户端
- * 
+ *
  * @author qy
- * 
+ *
  */
 public class HttpClient {
 	private String url;

@@ -38,19 +38,19 @@ public class ShopTypeController {
     @GetMapping("getAllShopType")
     public T getAllType(){
 
-        LambdaQueryWrapper<ShopType> shopTypeLambdaQueryWrapper = new LambdaQueryWrapper<>();
-        shopTypeLambdaQueryWrapper.eq(ShopType::getParentId , "0");
-        List<ShopType> oneList = shopTypeService.list(shopTypeLambdaQueryWrapper);
+        List<ShopType> oneList = shopTypeService.getAllOneSubject();
         ArrayList<ShopTypeVo> shopTypeVos = new ArrayList<>();
         for(ShopType shop : oneList){
             ShopTypeVo shopTypeVo = new ShopTypeVo();
             BeanUtils.copyProperties(shop , shopTypeVo);
             String shopId = shopTypeVo.getId();
-            shopTypeLambdaQueryWrapper.eq(ShopType::getParentId, shopId);
-            List<ShopType> shopTypes = shopTypeService.list(shopTypeLambdaQueryWrapper);
+            List<ShopType> shopTypes = shopTypeService.getTwoSubject(shopId);
             List<ShopTwoTypeVo> shopTwoTypeVos = new ArrayList<>();
-            BeanUtils.copyProperties(shopTypes , shopTwoTypeVos);
-            shopTwoTypeVos.addAll(shopTwoTypeVos);
+            for(ShopType type : shopTypes){
+                ShopTwoTypeVo shopTwoTypeVo = new ShopTwoTypeVo();
+                BeanUtils.copyProperties(type , shopTwoTypeVo);
+                shopTwoTypeVos.add(shopTwoTypeVo);
+            }
             shopTypeVo.setChildren(shopTwoTypeVos);
             shopTypeVos.add(shopTypeVo);
         }

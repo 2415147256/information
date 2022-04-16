@@ -3,6 +3,8 @@ package com.lzh.serviceshop.entity;
 import com.baomidou.mybatisplus.annotation.IdType;
 import com.baomidou.mybatisplus.annotation.TableId;
 import java.io.Serializable;
+import java.math.BigDecimal;
+
 import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;
 import lombok.Data;
@@ -11,7 +13,7 @@ import lombok.experimental.Accessors;
 
 /**
  * <p>
- * 
+ *
  * </p>
  *
  * @author lzh
@@ -26,14 +28,14 @@ public class ShopOrderMx implements Serializable {
     private static final long serialVersionUID = 1L;
 
     @ApiModelProperty(value = "订单的id")
-    @TableId(value = "id", type = IdType.ID_WORKER)
+    @TableId(value = "id", type = IdType.ID_WORKER_STR)
     private String id;
 
     @ApiModelProperty(value = "商品的名称")
     private String shopName;
 
     @ApiModelProperty(value = "商品的总价")
-    private String shopAllPrice;
+    private BigDecimal shopAllPrice;
 
     @ApiModelProperty(value = "店铺的名称")
     private String storeName;
@@ -48,7 +50,7 @@ public class ShopOrderMx implements Serializable {
     private String shopUserId;
 
     @ApiModelProperty(value = "是否支付  0表示未支付  1 表示已支付")
-    private Boolean isPay;
+    private Integer isPay;
 
     @ApiModelProperty(value = "商家的id")
     private String merchantId;

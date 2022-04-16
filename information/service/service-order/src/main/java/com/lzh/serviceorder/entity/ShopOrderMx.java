@@ -12,7 +12,7 @@ import lombok.experimental.Accessors;
 
 /**
  * <p>
- * 
+ *
  * </p>
  *
  * @author lzh
@@ -27,7 +27,7 @@ public class ShopOrderMx implements Serializable {
     private static final long serialVersionUID = 1L;
 
     @ApiModelProperty(value = "订单的id")
-    @TableId(value = "id", type = IdType.ID_WORKER)
+    @TableId(value = "id", type = IdType.ID_WORKER_STR)
     private String id;
 
     @ApiModelProperty(value = "商品的名称")
@@ -49,10 +49,13 @@ public class ShopOrderMx implements Serializable {
     private String shopUserId;
 
     @ApiModelProperty(value = "是否支付  0表示未支付  1 表示已支付")
-    private Boolean isPay;
+    private Integer isPay;
 
     @ApiModelProperty(value = "商家的id")
     private String merchantId;
 
+    private String shopId;
+
+    private String shopImag;
 
 }

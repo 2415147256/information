@@ -1,4 +1,4 @@
-package com.atguigu.serviceUcenter.utils;
+package com.lzh.serviceuser.utils;
 
 import org.apache.commons.io.IOUtils;
 import org.apache.commons.lang.StringUtils;

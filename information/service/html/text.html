@@ -1,0 +1,415 @@
+<template>
+    <!--房源信息-->
+    <div class="main-wrap">
+        <!--房源题目-->
+        <div class="house-title">
+            <h1 class="c_333 f20 strongbox">世茂天城二期 4房住家 业主自住的</h1>
+
+            <p class="house-update-info c_888 f12">
+                <!-- 临时下线徐州发布时间 -->
+                04-01&nbsp;&nbsp;&nbsp;&nbsp;
+            </p>
+
+            <div class="title-right-info f12">
+                <a id="su_kfdnew" class="collect-house pr c_888 clt-btn" href="javascript:;"
+                   onclick="clickLog('from=fcpc_detail_nc_shoucang0')"><i class="icon"></i><span>加入收藏</span></a>
+                <a id="richscan" class="richscan-house pr c_888" href="javascript:;"
+                   onmouseover="clickLog('from=fcpc_detail_nc_saoyisao')"><i class="icon"></i>扫一扫</a>
+                <!-- 增加举报位置 -->
+                <a id="report" class="report pr c_888" href="javascript:;"
+                   onclick="clickLog('from=fcpc_detail_bj_report')"><i class="icon"></i>举报</a>
+                <!-- 增加举报位置end -->
+
+            </div>
+            <div id="richscan-bar" class="richscan-wrap">
+                <p class="code"></p>
+
+                <p class="word">扫码获取房源信息</p>
+                <i class="jianjiao icon"></i>
+            </div>
+            <div id="manage-bar" class="manage-wrap">
+                <i class="jianjiao icon"></i>
+
+                <a id="gaq_update" class="ab" href="javascript:;" target="_blank">修改</a>
+                <a id="gaq_delete" class="ab" href="javascript:;" target="_blank">删除</a>
+                <a id="gaq_refresh" class="ab" href="javascript:;" target="_blank">刷新</a>
+                <a class="ab" href="https://infotopweb.union.vip.58.com/infotopnet/trytop/37775045184144/101110010"
+                   target="_blank" rel="nofollow">置顶</a>
+            </div>
+        </div>
+        衣柜
+        <!--房源基本信息-->
+        <div class="house-basic-info">
+            <div class="house-basic-pic fl">
+                <!-- todo 没有了原先的default样式 -->
+                <div id="bigImg" class="basic-top-bigpic pr " onclick="clickLog('from=fcpc_detail_nc_tupian_datu0')">
+                    <!---->
+                    <!-- 视频加1 start -->
+                    <!-- 视频加1 end -->
+                    <img id="smainPic"
+                         src="https://pic1.58cdn.com.cn/anjuke_58/f6f128a643f2221ec0a18a2eec0fa8a5?w=696&h=522&crop=1&t=1&srotate=1"
+                         alt="南昌红谷滩沙井路出租房源真实图片">
+                    <span id="sImgNu" class="leftNum pa f12">1/8</span>
+                    <span class="ax-tip">安选</span>
+
+                    <!-- 视频加2 start -->
+                    <!-- 视频加2 end -->
+
+                    <div class="basic-pic-load" id="loadingSmall" style="display: none;">
+                        <div class="top icon"></div>
+                        <div class="bottom icon"></div>
+                    </div>
+
+                    <!-- VR看房 start -->
+                    <!-- VR看房 end -->
+                </div>
+
+                <div class="basic-pic-list pr">
+                    <ul id="leftImg" class="pic-list-wrap pa">
+                        <li id="xtu_xtu_1" class="actives"
+                            data-src="//pic1.58cdn.com.cn/anjuke_58/f6f128a643f2221ec0a18a2eec0fa8a5?w=696&h=522&crop=1&t=1&srotate=1&w=640&h=480&crop=1">
+                            <img data-src="//pic1.58cdn.com.cn/anjuke_58/f6f128a643f2221ec0a18a2eec0fa8a5?w=696&h=522&crop=1&t=1&srotate=1&w=180&h=135&crop=1"
+                                 src="//pic1.58cdn.com.cn/anjuke_58/f6f128a643f2221ec0a18a2eec0fa8a5?w=696&h=522&crop=1&t=1&srotate=1&w=180&h=135&crop=1"
+                                 alt="南昌红谷滩沙井路出租房源真实图片">
+                        </li>
+                        <li id="xtu_xtu_2"
+                            data-src="//pic1.58cdn.com.cn/anjuke_58/f2869d8809e8140892efebadbee73f6d?w=696&h=522&crop=1&t=1&srotate=1&w=640&h=480&crop=1">
+                            <img data-src="//pic1.58cdn.com.cn/anjuke_58/f2869d8809e8140892efebadbee73f6d?w=696&h=522&crop=1&t=1&srotate=1&w=180&h=135&crop=1"
+                                 src="//pic1.58cdn.com.cn/anjuke_58/f2869d8809e8140892efebadbee73f6d?w=696&h=522&crop=1&t=1&srotate=1&w=180&h=135&crop=1"
+                                 alt="南昌红谷滩沙井路出租房源真实图片">
+                        </li>
+                        <li id="xtu_xtu_3"
+                            data-src="//pic1.58cdn.com.cn/anjuke_58/72d16de79f0293b02e41f52e1091551c?w=696&h=522&crop=1&t=1&srotate=1&w=640&h=480&crop=1">
+                            <img data-src="//pic1.58cdn.com.cn/anjuke_58/72d16de79f0293b02e41f52e1091551c?w=696&h=522&crop=1&t=1&srotate=1&w=180&h=135&crop=1"
+                                 src="//pic1.58cdn.com.cn/anjuke_58/72d16de79f0293b02e41f52e1091551c?w=696&h=522&crop=1&t=1&srotate=1&w=180&h=135&crop=1"
+                                 alt="南昌红谷滩沙井路出租房源真实图片">
+                        </li>
+                        <li id="xtu_xtu_4"
+                            data-src="//pic1.58cdn.com.cn/anjuke_58/f2e175404b4574fe7dac5ed75d5beb57?w=696&h=522&crop=1&t=1&srotate=1&w=640&h=480&crop=1">
+                            <img data-src="//pic1.58cdn.com.cn/anjuke_58/f2e175404b4574fe7dac5ed75d5beb57?w=696&h=522&crop=1&t=1&srotate=1&w=180&h=135&crop=1"
+                                 src="//pic1.58cdn.com.cn/anjuke_58/f2e175404b4574fe7dac5ed75d5beb57?w=696&h=522&crop=1&t=1&srotate=1&w=180&h=135&crop=1"
+                                 alt="南昌红谷滩沙井路出租房源真实图片">
+                        </li>
+                        <li id="xtu_xtu_5"
+                            data-src="//pic1.58cdn.com.cn/anjuke_58/b5b7167a52af8f97f83127926b9a5b03?w=696&h=522&crop=1&t=1&srotate=1&w=640&h=480&crop=1">
+                            <img data-src="//pic1.58cdn.com.cn/anjuke_58/b5b7167a52af8f97f83127926b9a5b03?w=696&h=522&crop=1&t=1&srotate=1&w=180&h=135&crop=1"
+                                 src="//pic1.58cdn.com.cn/anjuke_58/b5b7167a52af8f97f83127926b9a5b03?w=696&h=522&crop=1&t=1&srotate=1&w=180&h=135&crop=1"
+                                 alt="南昌红谷滩沙井路出租房源真实图片">
+                        </li>
+                        <li id="xtu_xtu_6"
+                            data-src="//pic1.58cdn.com.cn/anjuke_58/24dc7bdf59aeaa94b5a8e17a1f6f5f84?w=696&h=522&crop=1&t=1&srotate=1&w=640&h=480&crop=1">
+                            <img data-src="//pic1.58cdn.com.cn/anjuke_58/24dc7bdf59aeaa94b5a8e17a1f6f5f84?w=696&h=522&crop=1&t=1&srotate=1&w=180&h=135&crop=1"
+                                 src="//pic1.58cdn.com.cn/anjuke_58/24dc7bdf59aeaa94b5a8e17a1f6f5f84?w=696&h=522&crop=1&t=1&srotate=1&w=180&h=135&crop=1"
+                                 alt="南昌红谷滩沙井路出租房源真实图片">
+                        </li>
+                        <li id="xtu_xtu_7"
+                            data-src="//pic1.58cdn.com.cn/anjuke_58/4b300740b631208477f8171a47cc5da3?w=696&h=522&crop=1&t=1&srotate=1&w=640&h=480&crop=1">
+                            <img data-src="//pic1.58cdn.com.cn/anjuke_58/4b300740b631208477f8171a47cc5da3?w=696&h=522&crop=1&t=1&srotate=1&w=180&h=135&crop=1"
+                                 src="//pic1.58cdn.com.cn/anjuke_58/4b300740b631208477f8171a47cc5da3?w=696&h=522&crop=1&t=1&srotate=1&w=180&h=135&crop=1"
+                                 alt="南昌红谷滩沙井路出租房源真实图片">
+                        </li>
+                        <li id="xtu_xtu_8"
+                            data-src="//pic1.58cdn.com.cn/anjuke_58/c4d346230282fff56d80eda0b586f2ce?w=696&h=522&crop=1&t=1&srotate=1&w=640&h=480&crop=1">
+                            <img data-src="//pic1.58cdn.com.cn/anjuke_58/c4d346230282fff56d80eda0b586f2ce?w=696&h=522&crop=1&t=1&srotate=1&w=180&h=135&crop=1"
+                                 src="//pic1.58cdn.com.cn/anjuke_58/c4d346230282fff56d80eda0b586f2ce?w=696&h=522&crop=1&t=1&srotate=1&w=180&h=135&crop=1"
+                                 alt="南昌红谷滩沙井路出租房源真实图片">
+                        </li>
+                    </ul>
+                    <a id="slbt" class="basic-pic-left icon pa" href="javascript:void(0);"
+                       onclick="clickLog('from=fcpc_detail_nc_tupian_last0')"></a>
+                    <a id="srbt" class="basic-pic-right icon pa" href="javascript:void(0);"
+                       onclick="clickLog('from=fcpc_detail_nc_tupian_next0')"></a>
+                </div>
+            </div>
+            <div class="house-basic-right fr">
+                <div class="house-basic-desc">
+                    <div class="house-desc-item fl c_333">
+                        <div class="house-pay-way f16">
+                            <span class="c_ff552e">
+                                <b class="f36 strongbox">
+                                    7000                                </b>
+                                 元/月                            </span>&nbsp;&nbsp;&nbsp;&nbsp;
+                            <span class="instructions">面议</span>
+                            <!-- 增加 start -->
+                            <!-- 增加 end -->
+                        </div>
+                        <ul class="f14">
+                            <li><span class="c_888 mr_15">租赁方式：</span><span>整租</span>
+                            </li>
+                            <li><span class="c_888 mr_15">房屋类型：</span><span
+                                    class="strongbox">4室2厅2卫&nbsp;&nbsp;151                                    平&nbsp;&nbsp;豪华装修 </span>
+                            </li>
+                            <li>
+                                <span class="c_888 mr_15">朝向楼层：</span>
+                                <span class="strongbox">南北&nbsp;&nbsp;中层 / 36层</span>
+                            </li>
+                            <li>
+                                <span class="c_888 mr_15">所在小区：</span>
+                                <span>
+                                    <a class="c_333 ah" href="https://nc.58.com/xq/2365715/" target="_blank"
+                                       onclick="clickLog('from=fcpc_detail_nc_xiaoqu0')">世茂天城(二期)                                    </a>
+                                </span>
+                                <em class="zs c_888 f12">
+                                    (在租 <a class="c_0091d7 ah"
+                                           href="https://nc.58.com/xq/2365715/chuzu/"
+                                           target="_blank" onclick="clickLog('from=fcpc_detail_nc_zaizu0')">
+                                    177</a>
+                                    套)
+                                </em>
+                            </li>
+                            <li><span class="c_888 mr_15">所属区域：</span><span>
+                                                                        <a class="c_333 ah"
+                                                                           href="https://nc.58.com/honggutanxin/zufang/?utm_source=sem-360-pc&spm=24593799603.6642780624"
+                                                                           target="_blank"
+                                                                           onclick="clickLog('from=fcpc_detail_nc_quyu0')">红谷滩</a>&nbsp;&nbsp;
+                                                                        <a class="c_333 ah"
+                                                                           href="https://nc.58.com/shajinglu/zufang/?utm_source=sem-360-pc&spm=24593799603.6642780624"
+                                                                           target="_blank"
+                                                                           onclick="clickLog('from=fcpc_detail_nc_shangquan0')">沙井路</a>
+                                                                    </span><em
+                                    class="dt c_888 f12">距离地铁2号线红谷中大道站378米</em>
+                            </li>
+                            <li>
+                                <span class="c_888 mr_15">详细地址：</span>
+                                <span class="dz">
+                                    红谷中大道                                </span>
+                                <span class="fj">
+                                    <a rel="nofollow" class="c_0091d7 ah f12" href="/job/" target="_blank"
+                                       onclick="clickLog('from=fcpc_detail_nc_fujingongzuo')">附近高薪工作
+                                    </a>&nbsp;&nbsp;
+                                                                        <a class="c_0091d7 ah f12" id="dituNav"
+                                                                           href="javascript:;" jumpto="ditu"
+                                                                           onclick="clickLog('from=fcpc_detail_nc_chakanditu')">查看地图</a>
+                                                                    </span>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="house-agent-info house-broker-info fr" id="vipAgent">
+                        <div class="agent-info-block basic-info">
+                            <!--头像-->
+                            <div class="agent-head-portrait pr" onclick="clickLog('from=fcpc_detail_nc_touxiang')">
+                                <a href="//houserent.58.com/landlord/center?infoId=2419897875176456&city=nc&cityId=669&brokerId=6668296"
+                                   target="_blank" rel="nofollow">
+                                    <img src="https://pic1.ajkimg.com/display/anjuke/109b6747b0993f63286d355c6ffd89c5/500x663x0x1/100x133.jpg"
+                                         rel="nofollow">
+                                </a>
+                            </div>
+
+                            <!-- 活跃经纪人tag -->
+
+                            <!-- 姓名+认证 -->
+                            <p class="agent-name f16 pr">
+                                <a class="c_000"
+                                   href="//houserent.58.com/landlord/center?infoId=2419897875176456&city=nc&cityId=669&brokerId=6668296"
+                                   target="_blank" title="点击查看ta的信用" rel="nofollow"
+                                   onclick="clickLog('from=fcpc_detail_nc_xingming')">
+                                    杨美惠(经纪人) </a>
+                                <i class="icon pho-approve" title="手机已认证"></i>
+                                <!-- 这是啥
+    <i class="icon license-approve" title="营业执照认证"></i>
+    -->
+                            </p>
+
+                            <!-- 所属公司 -->
+                            <p class="agent-company">
+                                江西省鸿基房产置换有限公司 </p>
+                        </div>
+
+                        <div class="agent-info-block">
+                            <!-- 经纪人积分部分 --->
+                            <div class="agent-score">
+                                <div class="score-item">
+                                    <span class="score-result">极快</span>
+                                    <span class="score-title">微聊回复</span>
+                                </div>
+                                <div class="score-item">
+                                    <span class="score-result">较好</span>
+                                    <span class="score-title">房源质量</span>
+                                </div>
+                                <div class="score-item">
+                                    <span class="score-result">极佳</span>
+                                    <span class="score-title">服务水平</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="agent-info-block">
+                            <!-- 核验部分 -->
+                            <div class="agent-infor-wrap">
+                                <!-- 从业信息卡: 北京-->
+                                <!-- 从业信息卡: 上海-->
+
+                                <!-- 人员核验码：成都 -->
+
+                                <!-- 从业人员编号 ：宁波 -->
+
+                                <!-- 从业备案编号：武汉 -->
+                            </div>
+
+                            <!-- 个人店铺 + 营业执照-->
+                            <div class="agent-infor-wrap">
+                                    <span class="agent-store">
+                                        <a class="ah"
+                                           href="//houserent.58.com/landlord/center?infoId=2419897875176456&city=nc&cityId=669&brokerId=6668296"
+                                           target="_blank" rel="nofollow"
+                                           onclick="clickLog('from=fcpc_detail_nc_jingjiren_jinrudianpu')">
+                                            个人店铺
+                                        </a>
+                                    </span>
+                                <span class="business-license">
+                                        <span class="name">营业执照</span>
+                                        <span class="popover agent-img-pop-wrapper">
+                                            <a class="agent-img-pop" style="height: auto;" title="点击查看原图"
+                                               target="_blank"
+                                               href="http://pic3.58cdn.com.cn/nowater/crmfangnowatermark/n_v2da3c97bc36144b699e4bbc8e999d9a0c.jpg">
+                                                <img style="min-height: 283PX;"
+                                                     src="https://pic3.58cdn.com.cn/nowater/crmfangnowatermark/n_v2da3c97bc36144b699e4bbc8e999d9a0c.jpg"/>
+                                                                                            </a>
+                                        </span>
+                                    </span>
+                            </div>
+
+                            <!-- 合肥核验码，按产品要求放在个人店铺+营业执照的下面 2022.1.11 产品：杨丹 https://ee.58corp.com/w/issue/JJRZL-2815 -->
+
+                        </div>
+                    </div>
+                    <!--end-->
+                </div>
+
+                <div class="house-fraud-tip">
+                    <!-- 更新日期超过90天隐藏电话联系和微聊 2018.01.13 -->
+                    <!-- 2019.9.16 经纪人样式更改为悬浮扫码到小程序 -->
+                    <div class="house-chat-cover-container">
+                        <div class="house-chat-cover-wrapper"
+                             onmouseover="(typeof checkQRCode==='function')&&checkQRCode()">
+                            <i class="house-chat-icon house-chat-icon-guard"></i>
+                            <i class="house-chat-icon house-chat-icon-phone-white"></i>
+                            <span class="house-chat-txt">微信扫码看电话</span>
+                        </div>
+                        <div class="phone-qr-tooltips" style="width: 240px;">
+                            <span class="tooltips-arrow tooltips-arrow-border"></span>
+                            <span class="tooltips-arrow tooltips-arrow-bg"></span>
+                            <div class="for-center"></div>
+                            <div class="phone-qr-code"></div>
+                        </div>
+                    </div>
+                    <span class="house-chat-im im-chat im-offline"
+                          data-im=""
+                          onclick="clickLog('from=pc_detail_im_fc_zf_click')">
+                        <i class="im-icon"></i>微聊
+                        </span>
+
+                    <!--
+                <span class="frand-remarks pr f12">签约前切勿付
+                      <i class="c_ff552e">订金、押金、 <br/>租金</i>等一切费用！务必
+                      <i class="c_ff552e">实地<br/> 看房</i>，查验房东和房屋证件！
+                      <em id="report" class="frand-logo pa f12 c_ff552e"><i class="icon"></i>举报</em>
+                </span>
+                -->
+                    <span class="wx-wrap">
+                        <i>扫一扫，微信咨询</i>
+                    </span>
+
+                    <div id="report-bar" class="report-column pr">
+                        <i class="jianjiao icon"></i>
+
+                        <a class="ab" href="https://about.58.com/info/deleteinfo.aspx" target="_blank" rel="nofollow"
+                           onclick="clickLog('from=fcpc_detail_nc_jubao_dianhuamy')">电话被冒用</a>
+                        <a class="ab" rel="nofollow"
+                           href="https://rentercenter.58.com/report/detail_app_v2?infoId=2419897875176456&terminal=0&cateId=8&plat=1"
+                           onclick="clickLog('from=fcpc_detail_nc_jubao_xxxujia')" target="_blank">信息虚假</a>
+                        <a class="ab" href="https://110.58.com/?postId=49546402805561&category=1001" rel="nofollow"
+                           onclick="clickLog('from=fcpc_detail_nc_jubao_baoan')" target="_blank">我要报案</a>
+                    </div>
+
+                </div>
+            </div>
+            <br class="clear"/>
+        </div>
+
+        <!--房源描述-->
+        <div class="house-detail-desc">
+            <!--主要描述-->
+            <div class="main-detail-info">
+
+                <ul class="nav-detail-bar">
+                    <li class="on" onclick="clickLog('from=fcpc_detail_nc_fymiaoshu')">
+                        <a id="housedetailNav" href="javascript:;" jumpto="housedetailNav">房源详情</a></li>
+                    <li onclick="clickLog('from=fcpc_detail_nc_xiaoquxq0')">
+                        <a id="districtNav" href="javascript:;" jumpto="district-wrap">小区详情</a>
+                    </li>
+                </ul>
+                <div class="ax-banner">
+                    <img src="https://img.58cdn.com.cn/fangrs/img/f28279438da09676591c0dc4cd9c86f1.png">
+                </div>
+                <div class="report-text">
+                    签约前切勿付
+                    <span class="color">订金、押金、租金</span>
+                    等一切费用！务必
+                    <span class="color">实地看房，</span>
+                    查验房东和房屋证件！
+                </div>
+
+                <!--房屋配置-->
+                <ul class="house-disposal">
+                    <li class="no-config"><i class="icon"></i>床</li>
+                    <li class="no-config"><i class="icon"></i>衣柜</li>
+                    <li class="no-config"><i class="icon"></i>沙发</li>
+                    <li class="no-config"><i class="icon"></i>电视</li>
+                    <li class="no-config"><i class="icon"></i>冰箱</li>
+                    <li class="no-config"><i class="icon"></i>洗衣机</li>
+                    <li class="no-config"><i class="icon"></i>空调</li>
+                    <li class="no-config"><i class="icon"></i>热水器</li>
+                    <li class="no-config"><i class="icon"></i>宽带</li>
+                    <li class="no-config"><i class="icon"></i>暖气</li>
+                    <li class="no-config"><i class="icon"></i>燃气灶</li>
+                    <li class="no-config"><i class="icon"></i>独立阳台</li>
+                    <li class="no-config"><i class="icon"></i>独立卫生间</li>
+                    <li class="no-config"><i class="icon"></i>智能门锁</li>
+                    <li class="no-config"><i class="icon"></i>油烟机</li>
+                    <li class="no-config"><i class="icon"></i>可做饭</li>
+                </ul>
+                <div class="house-word-introduce f16 c_555">
+                    <!-- 增加 start -->
+                    <ul class='introduce-item'>
+                        <li>
+                            <span class='a1'>房屋亮点</span>
+                            <span class='a2'>
+                                <!-- 防疫服务特殊展示带hover -->
+                                                                        <em>邻地铁</em>
+                                                                            <em>精装修</em>
+                                                                </span>
+                        </li>
+                        <li>
+                            <span class='a1'>房源描述</span>
+                            <span class='a2'>房源特色：<br>1、小区管理严谨，干净整洁。<br>2客厅连阳台，美景直线瞭望<br>3、户型优势，户型相当漂亮，客厅、主卧朝南。采光性和通透性都非常好，设计比较合理，客厅超大气派，户型方正.【百看百中、得房率高】。<br>1、配套：附近有：医院、学校、超市、银行、公交、菜市场、公园等在咫尺<br>2、小区特色：地理位置优越，繁华地段，出行方便，交通便利，周边配套齐全，多条公交路线经过，四通八达。</span>
+                        </li>
+                    </ul>
+                    <!-- 增加 end -->
+                </div>
+            </div>
+            <!--右侧推荐及广告-->
+            <div class="side-right-info fr">
+                <div id="agent-other-house" class="agent-other-house">
+
+                </div>
+
+                <!-- <div id="superApartment">
+                </div> -->
+            </div>
+        </div>
+
+    </div>
+
+</template>
+
+<script>
+    export default {}
+</script>
+
+<style>
+    @import "@/assets/css/rent.css";
+    @import "@/assets/css/rent/index.css";
+
+</style>

@@ -1,6 +1,6 @@
 package com.lzh.servicerent.user;
 
-import com.atguigu.commonutils.vo.UcenterMemberOrder;
+import com.lzh.servicebase.entity.User;
 import org.springframework.stereotype.Component;
 
 /**
@@ -10,7 +10,7 @@ import org.springframework.stereotype.Component;
 @Component
 public class UcenterClientImpl implements UcenterClient{
     @Override
-    public UcenterMemberOrder getUcenterPay(String memberId) {
+    public User getUserInfo(String memberId) {
 
         return null;
     }
