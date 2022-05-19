@@ -12,7 +12,6 @@ import java.util.Date;
  * @author helen
  * @since 2019/10/16
  */
-@SuppressWarnings("all")
 public class JwtUtils {
 
     public static final long EXPIRE = 1000 * 60 * 60 * 24;
