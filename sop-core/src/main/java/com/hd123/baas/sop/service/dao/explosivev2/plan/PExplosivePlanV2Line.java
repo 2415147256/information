@@ -1,0 +1,35 @@
+package com.hd123.baas.sop.service.dao.explosivev2.plan;
+
+import com.hd123.baas.sop.service.api.explosivev2.plan.ExplosivePlanV2Line;
+import com.hd123.rumba.commons.jdbc.annotation.MapToEntity;
+import com.hd123.rumba.commons.jdbc.annotation.SchemaMeta;
+import com.hd123.rumba.commons.jdbc.annotation.TableName;
+import com.hd123.rumba.commons.jdbc.entity.PEntity;
+import lombok.Getter;
+import lombok.Setter;
+
+/**
+ * @author shenmin
+ */
+@SchemaMeta
+@MapToEntity(ExplosivePlanV2Line.class)
+@Getter
+@Setter
+public class PExplosivePlanV2Line extends PEntity {
+  @TableName
+  public static final String TABLE_NAME = "explosive_plan_v2_line";
+
+  public static final String TENANT = "tenant";
+  public static final String OWNER = "owner";
+  public static final String LINE_NO = "line_no";
+  public static final String SKU_ID = "sku_id";
+  public static final String SKU_CODE = "sku_code";
+  public static final String SKU_GID = "sku_gid";
+  public static final String SKU_NAME = "sku_name";
+  public static final String SKU_QPC = "sku_qpc";
+  public static final String SKU_UNIT = "sku_unit";
+  public static final String IN_PRICE = "in_price";
+  public static final String LIMIT_QTY = "limit_qty";
+  public static final String MIN_QTY = "min_qty";
+  public static final String REMARK = "remark";
+}
